@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: auto;
+    background: transparent url('../multimedia/Page1/background-header@2x.png') no-repeat;
+    background-size: 100% 100%;
+    opacity: 1;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 94px;
+    background-color: #0A0B0D;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 100%;
+}
+
+header nav {
+    display: flex;
+    width: 60%;
+    gap: 36px;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Seccion1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 43px;
+    margin-bottom: 57px;
+    width: 85%;
+    height: 1185px;
+}
+
+.Seccion1 span {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.Seccion1 span u{
+    margin-right: 5px;
+
+}
+
+.Seccion1 button {
+    background-color: #311FA6;
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    font: normal normal bold 1.2rem Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    border: none;
+    border-radius: 50px;
+    transition: .5s ease-in;
+}
+.Seccion1 button:hover{
+    background-color: #4d3db9;
+}
+.img_1 {
+    margin-top: 27px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 471px;
+    background: transparent url('../multimedia/Page1/PortadaCrono.png');
+    background-size: 100%;
+    border-radius: 20px;
+}
+
+.Descripcion {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 628px;
+}
+
+.Descripcion .Datos {
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 69px;
+    padding-top: 32px;
+    width: 55%;
+    height: 100%;
+    background-color: #0A0B0D;
+    border-radius: 20px;
+}
+
+.label2,
+.label3,
+.label4 {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.label2 {
+    width: 80%;
+    font: normal normal 300 16px/19px Lato;
+    margin-bottom: 20px;
+}
+
+.label3 {
+    font: normal normal 900 16px/19px Lato;
+}
+
+.label4 {
+    font: normal normal 900 24px/29px Lato;
+}
+
+.Etiquetas{
+    margin-bottom: 23px;
+    display: flex;
+    width: 100%;
+    gap: 6px;
+}
+.Etiquetas label{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 50px;
+    text-align: center;
+    font: normal normal 300 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    background-color: #3F5173;
+}
+
+.Descripcion .imagenes_s {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 371px;
+    height: 100%;
+}
+
+.imagenes img {
+    width: 100%;
+    height: 196px;
+    border-radius: 20px;
+}
+
+.Logo {
+    width: 195px;
+    height: 50px;
+}
+
+.Card2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 7px;
+    width: 308px;
+    height: 240px;
+    background-color: #0A0B0D;
+    border-radius: 25px;
+}
+
+.Card2 span {
+    width: 80%;
+    text-align: left;
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Card2 label {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 50px;
+    text-align: center;
+    font: normal normal 300 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.913);
+}
+
+.Card2 div {
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 5px;
+    width: 294px;
+    height: 186px;
+    background-size: 100% 100%;
+}
+
+.Card2 div div {
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: 24px;
+}
+
+.Card2 div img {
+    width: 25px;
+    height: 24px;
+}
+
+.image_1 {
+    background: transparent url('../multimedia/Page1/VF1.png');
+}
+
+.image_2 {
+    background: transparent url('../multimedia/Page1/VDF2.png');
+}
+
+.image_3 {
+    background: transparent url('../multimedia/Page1/VF3.png');
+}
+
+.Seccion2 {
+    display: flex;
+    padding: 50px 0px 50px 0px;
+    justify-content: center;
+    width: 100vw;
+    height: 350px;
+    background-color: #405173;
+}
+
+.Seccion2 .JD {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 51px;
+    text-align: right;
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Seccion2 h2 {
+    text-align: left;
+    font: normal normal 900 24px/29px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Seccion2 h3 {
+    text-align: left;
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.JD .Text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+
+}
+
+.JD div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 187px;
+
+}
+
+.JD div div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.JD .Ayuda {
+    filter: invert();
+    width: 20px;
+    height: 20px;
+}
+
+.JD img {
+    width: 50%;
+    height: 100%;
+}
+
+.Seccion2 .Contenedor2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85%;
+    height: 100%;
+}
+
+.Seccion3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    height: 202px;
+}
+
+.Seccion3 .Links {
+    display: flex;
+    width: 163px;
+    text-align: left;
+    justify-content: center;
+}
+
+.Seccion3 .Redes {
+    display: flex;
+    flex-wrap: wrap;
+    height: 74px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.Redes span {
+    width: 100%;
+}
+
+.Seccion3 a {
+    text-align: left;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Seccion3 span {
+    text-align: left;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Seccion3 img {
+    margin-top: 24px;
+}
+
+.Seccion3 div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 13px;
+    width: 33.33333333333333333%;
+    height: 100%;
+}
+
+.Redes button {
+    text-decoration: none;
+    border: 0;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A0B0D;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .5s ease-in;
+}
+
+.Redes button:hover {
+    background-color: #ffffff;
+
+    .img {
+        filter: none;
+    }
+}
+
+.Redes button:hover img {
+    filter: none;
+}
+
+.Redes img {
+    filter: invert();
+    margin: 0;
+    width: 60%;
+    height: 60%;
+    transition: .5s ease-in;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 49px;
+    background-color: #0A0B0D;
+}
+
+h3 {
+    text-align: left;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}

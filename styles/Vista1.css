@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: auto;
+    background: transparent url('../multimedia/Page1/background-header@2x.png') no-repeat;
+    background-size: 100% 100%;
+    opacity: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 94px;
+}
+
+header nav {
+    display: flex;
+    width: 60%;
+    gap: 36px;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Logo {
+    width: 195px;
+    height: 50px;
+}
+
+.Seccion1 {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    height: 415px;
+}
+
+.Seccion1 div {
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+
+    text-align: left;
+    font: normal normal 900 1.5rem Lato;
+    line-height: 1;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Seccion1 img {
+    height: 100%;
+}
+
+.Seccion1 span {
+    display: flex;
+    width: 90%;
+    font: normal normal 300 1.5rem Lato;
+}
+
+.Seccion1 button {
+    background-color: #311FA6;
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    font: normal normal bold 1.2rem Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    border: none;
+    border-radius: 50px;
+    transition: .5s ease-in;
+}
+.Seccion1 button:hover{
+    background-color: #4d3db9;
+}
+
+.Controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 85%;
+    height: 116px;
+}
+
+.Controls button {
+    width: 50px;
+    height: 5px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.Controls button:focus {
+    background-color: rgba(128, 128, 128, 0.349);
+}
+
+.Dest {
+    flex-wrap: wrap;
+    width: 85%;
+    height: 406px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Dest .JD {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 29px;
+    text-align: right;
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Destacados h2 {
+    text-align: left;
+    font: normal normal 900 24px/29px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.JD div {
+    display: flex;
+    justify-content: space-between;
+    width: 97px;
+}
+
+.JD div div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.JD img {
+    width: 50%;
+    height: 100%;
+}
+
+.Card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 7px;
+    width: 308px;
+    height: 240px;
+    background-color: #405173;
+    border-radius: 25px;
+}
+
+.Card span {
+    width: 80%;
+    text-align: left;
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Card label {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 50px;
+    text-align: center;
+    font: normal normal 300 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.913);
+}
+
+.Card div {
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    gap: 5px;
+    width: 294px;
+    height: 186px;
+    background-size: 100% 100%;
+}
+
+.Card div div {
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: 24px;
+}
+
+.Card div img {
+    width: 25px;
+    height: 24px;
+}
+
+.Fondo1 {
+    background: transparent url('../multimedia/Page1/Videojuego-1@2x.png');
+}
+
+.Fondo2 {
+    background: transparent url('../multimedia/Page1/Videojuego-2@2x.png');
+}
+
+.Fondo3 {
+    background: transparent url('../multimedia/Page1/Videojuego-3@2x.png');
+}
+
+.Card2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 7px;
+    width: 308px;
+    height: 240px;
+    background-color: #0A0B0D;
+    border-radius: 25px;
+}
+
+.Card2 span {
+    width: 80%;
+    text-align: left;
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Card2 label {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 50px;
+    text-align: center;
+    font: normal normal 300 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.913);
+}
+
+.Card2 div {
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 5px;
+    width: 294px;
+    height: 186px;
+    background-size: 100% 100%;
+}
+
+.Card2 div div {
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: 24px;
+}
+
+.Card2 div img {
+    width: 25px;
+    height: 24px;
+}
+
+.VF1 {
+    background: transparent url('../multimedia/Page1/VF1.png');
+}
+
+.VF2 {
+    background: transparent url('../multimedia/Page1/VDF2.png');
+}
+
+.VF3 {
+    background: transparent url('../multimedia/Page1/VF3.png');
+}
+
+.VF4 {
+    background: transparent url('../multimedia/Page1/VF4.png');
+}
+
+.VF5 {
+    background: transparent url('../multimedia/Page1/VF5.png');
+}
+
+.VF6 {
+    background: transparent url('../multimedia/Page1/Videojuego-3@2x.png');
+}
+
+.Seccion2 {
+    display: flex;
+    padding: 50px 0px 50px 0px;
+    justify-content: center;
+    width: 100vw;
+    height: 700px;
+    background-color: #405173;
+}
+
+.Seccion2 .JD {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 51px;
+    text-align: right;
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Seccion2 h2 {
+    text-align: left;
+    font: normal normal 900 24px/29px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Seccion2 h3 {
+    text-align: left;
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.JD .Text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+
+}
+
+.JD div {
+    display: flex;
+    justify-content: space-between;
+    width: 97px;
+}
+
+.JD div div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.JD img {
+    width: 50%;
+    height: 100%;
+}
+
+.Seccion2 .Contenedor2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85%;
+    height: 100%;
+}
+
+.Seccion3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    height: 202px;
+}
+
+.Seccion3 .enlaces {
+    display: flex;
+    width: 163px;
+    text-align: left;
+    justify-content: center;
+}
+
+.Seccion3 .Redes {
+    display: flex;
+    flex-wrap: wrap;
+    height: 74px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.Redes span {
+    width: 100%;
+}
+
+.Seccion3 a {
+    text-align: left;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Seccion3 span {
+    text-align: left;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Seccion3 img {
+    margin-top: 24px;
+}
+
+.Seccion3 div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 13px;
+    width: 33.33333333333333333%;
+    height: 100%;
+}
+
+.Redes button {
+    text-decoration: none;
+    border: 0;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A0B0D;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .5s ease-in;
+}
+
+.Redes button:hover {
+    background-color: #ffffff;
+
+    .img {
+        filter: none;
+    }
+}
+
+.Redes button:hover img {
+    filter: none;
+}
+
+.Redes img {
+    filter: invert();
+    margin: 0;
+    width: 60%;
+    height: 60%;
+    transition: .5s ease-in;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 49px;
+    background-color: #0A0B0D;
+}
+
+h3 {
+    text-align: left;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
